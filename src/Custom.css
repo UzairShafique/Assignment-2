@@ -1,0 +1,46 @@
+
+  html,body{
+    background-color: rgb(102, 99, 99);
+    padding-top: 40px;
+  }
+ .row{
+   padding-top:100px;
+   display: inline-block;
+   border: 2px solid #000000;
+   border-spacing: 20em;
+   line-height: 2em;
+   border-radius: 6pt;
+   margin-left: 6pt;
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+   flex-direction: row;
+   
+   
+ }
+
+ .columns{
+     float: left;
+     width: 25%;
+     padding: 0 40px;
+     border-radius: 6pt;
+     
+ }
+
+ .cards{
+ padding: 28px;
+ height: 186pt;
+ 
+ box-shadow: 0 4px 8px 0 #000000cc ;
+ border-radius: 6pt;
+ 
+  text-align: center;
+ margin: 10px 20px;
+ background-color: #f1f1f1;
+ }
+
+ .images{
+  height:120px;
+   float: center;
+  width:120px
+ }

@@ -1,0 +1,27 @@
+
+.columns{
+    
+    float: left;
+    width: 25%
+    
+}
+.sections{
+    margin-top: 5em;
+   
+    
+}
+.cardes{
+    padding: 24px;
+ height: 168pt;
+ width: 20em;
+
+
+ 
+ box-shadow: 0 4px 8px 0 #000000cc ;
+ border-radius: 6pt;
+   
+  text-align: center;
+ margin: 10px 20px;
+ background-color: #f1f1f1;
+}
+
