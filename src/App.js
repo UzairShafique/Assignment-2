@@ -2,12 +2,12 @@ import React, {useState} from 'react';
 
 
 import './App.css';
-import Simple from "../src/Simple"
+
 function App() {
  
    
- //  const [islit, setlit] = useState(true)
- // const hellos=islit ? "lit" : "dark"
+  const [islit, setlit] = useState(true)
+  const hellos=islit ? "lit" : "dark"
   return(
       
     <div className={`room ${hellos}`}>

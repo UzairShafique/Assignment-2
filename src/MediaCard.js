@@ -11,7 +11,7 @@ function MediaCard(props) {
                 <div className="cards">
               <h2>{props.title}</h2>
               <p>{props.body}</p>
-              <img className="images" src={props.imageUrl}/>
+              <img alt="imageurl" className="images" src={props.imageUrl}/>
                 </div>
               </div>
           </div>
